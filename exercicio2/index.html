@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" class="formulario">
+    <h1 id="titulo1">Formulário de Contato.<br/>
+        <h3 id="titulo2">Preecha todos os campos.</h3>
+    </h1>
+
+    <hr size="4" width="80%" color="black">
+
+    <div>
+        <div class="titulo3">Nome:</div>
+        <input id="nome" type="text" required="Por favor, digite seu nome!" placeholder="Didite seu nome" class="entrada"/>
+    </div>
+    <div>
+        <div class="titulo3">E-mail válido:</div>
+        <input id="email" type="email" name="email" required="Por favor, digite seu e-mail!" placeholder="Digite E-mail" class="entrada">
+    </div>
+    <div>
+        <div class="titulo3">Assunto:</div>
+     <select name="opcoes" required="Escolha a opção!" class="entrada">
+        <option value="text">-----</option>
+        <option value="Duvidas do produto">Dúvidas do Produto</option>
+        <option value="Problemas com a entrega">Problemas com a entrega</option>
+        <option value="Sugestoes">Sugestões</option>
+        <option value="Reclamacoes">Reclamações</option>     
+     </select>
+    </div>
+    <div>
+       <div class="titulo3">Mensagem:</div>
+       <textarea placeholder="Escreva" class="entrada"></textarea>
+    </div>
+    <div>
+        <div class="titulo3">&nbsp;</div>
+        <input type="button" value="Enviar" class="enviar">
+    </div>
+</form>
+
+    
+</body>
+</html>

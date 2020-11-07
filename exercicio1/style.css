@@ -1,0 +1,37 @@
+h1{
+    color:rgb(255, 17, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+table{
+    width: 60%;
+    border-style: double;
+}
+
+.info{
+    font-weight: bold;
+}
+
+#Periodo{
+    background-color: rgb(199, 245, 153);
+}
+
+#Android{
+    background-color: rgb(114, 194, 221);
+}
+
+#IOS{
+    background-color: lightcoral;
+}
+
+#Windons{
+    background-color: rgb(181, 181, 181);
+}
+
+#Outros{
+    background-color: rgb(202, 105, 202);
+}
+.Dados{
+    background-color: rgb(191, 232, 232);
+}
